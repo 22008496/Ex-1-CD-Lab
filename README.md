@@ -1,9 +1,9 @@
 # Ex-1 IMPLEMENTATION-OF-SYMBOL-TABLE
 ## Name: N.magesh
 ## Register No : 212222040091
-# AIM :
+# AIM:
 ## To write a C program to implement a symbol table.
-# ALGORITHM
+# ALGORITHM:
 1.	Start the program.
 2.	Get the input from the user with the terminating symbol ‘$’.
 3.	Allocate memory for the variable by dynamic memory allocation function.
@@ -12,8 +12,8 @@
 6.	The steps are repeated till ‘$’ is reached.
 7.	To reach a variable, enter the variable to be searched and symbol table has been checked for corresponding variable, the variable along with its address is displayed as result.
 8.	Stop the program. 
-# PROGRAM
-
+# PROGRAM:
+```
 #include <stdio.h> 
 #include <ctype.h> 
 #include <string.h> 
@@ -87,11 +87,12 @@ int main() {
 
     return 0;
 }
+```
+# OUTPUT:
 
-# OUTPUT
-![image](https://github.com/user-attachments/assets/f87986d3-a4b2-49f4-bf60-f4d26bab5604)
+![Screenshot 2024-10-17 144724](https://github.com/user-attachments/assets/b129e593-045e-4d55-9780-f0c2def769fa)
 
 
+# RESULT:
+The program to implement a symbol table is executed and the output is verified.
 
-# RESULT
-### The program to implement a symbol table is executed and the output is verified.
